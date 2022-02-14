@@ -2,16 +2,15 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 class App extends Component {
-    constructor(props){
-         super(props)
+    constructor(props) {
+        super(props);
         this.realativeList = [
-            {name:puhkar ,location :delhi},
-            {name:Ravi ,location:pune},
-            {name:Rhul , location:up},
-            {name:Gaja , location:guj}
-        ]
-    }
-   
+          { name: "puhkar", location: "delhi" },
+          { name: "Ravi", location: "pune" },
+          { name: "Rhul", location: "up" },
+          { name: "Gaja", location: "guj" }
+        ];
+      }
    
     render() {
 
